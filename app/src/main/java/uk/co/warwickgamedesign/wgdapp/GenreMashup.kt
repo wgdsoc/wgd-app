@@ -37,13 +37,35 @@ class GenreMashup : AppCompatActivity() {
         "Incremental",
         "Educational",
         "Party",
-        "Life",
         "Dating",
         "MMO",
         "Point-and-click",
         "Text",
         "VR",
-        "AR"
+        "AR",
+        "Physics",
+        "QWOP-like",
+        "Quicktime",
+        "Puzzle",
+        "Procedurally-generated",
+        "Pinball",
+        "Military",
+        "Gacha",
+        "Trading",
+        "Tabletop",
+        "Murder Mystery",
+        "Open-world",
+        "Social",
+        "Pen-and-paper",
+        "Children's",
+        "Cooking",
+        "Fishing",
+        "Arcade",
+        "Maze",
+        "Typing",
+        "Painting",
+        "Experimental",
+        "Political"
     )
 
     val nouns = listOf(
@@ -71,7 +93,21 @@ class GenreMashup : AppCompatActivity() {
         "Roguelite",
         "Adventure",
         "Horror",
-        "Battle Royale"
+        "Battle Royale",
+        "Flight Sim",
+        "Bullet Hell",
+        "Gambling",
+        "Light Gun Game",
+        "FMV Game",
+        "Game Show",
+        "Tycoon",
+        "Crafting",
+        "God Game",
+        "Dress-up",
+        "Hero Shooter",
+        "Building Sim",
+        "Thriller",
+        "Life Sim"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
