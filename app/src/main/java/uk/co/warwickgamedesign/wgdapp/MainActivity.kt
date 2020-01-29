@@ -19,5 +19,11 @@ class MainActivity : AppCompatActivity() {
         mashupBtn.setOnClickListener {
             startActivity(Intent(this, GenreMashup::class.java))
         }
+
+        val gddBtn = findViewById<Button>(R.id.btnGDD)
+
+        gddBtn.setOnClickListener {
+            startActivity(Intent(this, GameIdeas::class.java))
+        }
     }
 }

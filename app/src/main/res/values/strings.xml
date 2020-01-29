@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">WGD App</string>
+
+    <string name="title_activity_game_ideas">My Game Ideas</string>
+    <string name="title_activity_genre_mashup">Genre Mash-up</string>
+
     <string name="logo_label">WGD Logo</string>
     <string name="title_text">Warwick Game Design</string>
-    <string name="genre_mashup">Genre Mashup</string>
+
     <string name="do_mashup">Mash me a genre!</string>
     <string name="mashup_template">%1$s %2$s</string>
 </resources>

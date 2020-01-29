@@ -8,9 +8,9 @@ import android.widget.TextView
 class GenreMashup : AppCompatActivity() {
 
     val adjectives = listOf(
-        "First-Person",
-        "Second-Person",
-        "Third-Person",
+        "First Person",
+        "Second Person",
+        "Third Person",
         "Fighting",
         "Platforming",
         "Stealth",
@@ -65,7 +65,9 @@ class GenreMashup : AppCompatActivity() {
         "Typing",
         "Painting",
         "Experimental",
-        "Political"
+        "Political",
+        "Character-driven",
+        "Narrative"
     )
 
     val nouns = listOf(
@@ -107,7 +109,11 @@ class GenreMashup : AppCompatActivity() {
         "Hero Shooter",
         "Building Sim",
         "Thriller",
-        "Life Sim"
+        "Life Sim",
+        "Walking Simulator",
+        "Strand Game",
+        "Deception Game",
+        "Deduction Game"
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -123,5 +129,13 @@ class GenreMashup : AppCompatActivity() {
 
             mashupTxt.text = getString(R.string.mashup_template, adj, noun)
         }
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = getString(R.string.title_activity_genre_mashup)
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        return super.onSupportNavigateUp()
     }
 }
